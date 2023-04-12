@@ -1,11 +1,13 @@
 import './App.css'
+import SearchMovies from "./components/SearchMovies";
 
 function App() {
 
 
   return (
-    <div className="App">
-        test
+    <div className="container">
+        <h1 className='title'>Movie search app</h1>
+        <SearchMovies/>
     </div>
   )
 }
